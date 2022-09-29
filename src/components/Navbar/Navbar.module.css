@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6em;
+    height: 70px;
+    background-color:  rgba(139, 200, 226, 0.279);
+}
+.navBar>div:nth-child(1)>h1{
+    font-size: 30px;
+}
+.navBar>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.navBar>div:nth-child(2)>p:nth-child(1){
+    font-weight: 800;
+}
+.navBar>div:nth-child(2)>a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
