@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Main.module.css'
-// import pic from '.images/mypic.jpeg'
+import pic from '../../assets/mypic.jpeg'
 
 export default function Main() {
     return (
@@ -24,7 +24,7 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-                {/* <div><img src={pic} alt="" /></div> */}
+                <div><img src={pic} alt="" /></div>
             </section>
             <section>
                 <div>
